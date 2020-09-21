@@ -26,7 +26,7 @@ h1 {
 }
 
 .cards__item {
-  display: flex;
+  display: table;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
@@ -106,7 +106,7 @@ h1 {
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards__items {
+  .cards__item {
     display: flex;
   }
 }

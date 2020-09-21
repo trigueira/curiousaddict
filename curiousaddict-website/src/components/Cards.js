@@ -22,7 +22,7 @@ function Cards() {
               path="/contact"
             />
           </ul>
-          <ul>
+          <ul className="cards__item">
             <CardItem
               src="images/plants-edited.jpg"
               text="Hi! I am the person behind Curious Addict"
