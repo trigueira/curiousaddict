@@ -6,9 +6,8 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.posts,
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +15,7 @@
   font-size: 3rem;
 }
 
-.services {
+.posts {
   background-image: url("/images/plants-edited.jpg");
   background-position: center;
   background-size: cover;
@@ -25,19 +24,10 @@
   font-size: 100px;
 }
 
-.products {
+.contact {
   background-image: url("/images/plants-edited.jpg");
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url("/images/plants-edited.jpg");
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
