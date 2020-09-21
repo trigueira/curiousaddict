@@ -30,6 +30,8 @@ video {
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucinda Sans Unicode", "Lucida Grande",
     "Lucinda Sans", Arial, sans-serif;
+  line-height: 4vh;
+  text-align: center;
 }
 
 .hero-btns {
