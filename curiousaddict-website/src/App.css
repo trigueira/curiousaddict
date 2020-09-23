@@ -38,7 +38,7 @@
 .contact > h1 {
   color: #fff;
   font-size: 80px;
-  margin-top: 180px;
+  margin-top: 10px;
   padding: 10px 20px;
   border-radius: 20px;
   background-color: #242222;
@@ -61,12 +61,15 @@
   .contact > h1 {
     font-size: 50px;
   }
+
+  .contact > p {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .contact > h1 {
     font-size: 30px;
-    margin-top: 350px;
   }
 
   .contact > p {
