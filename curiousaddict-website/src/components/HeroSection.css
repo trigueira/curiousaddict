@@ -23,12 +23,12 @@ video {
   margin-top: 220px;
   padding: 10px 20px;
   border-radius: 20px;
-  background-color: rgb(216, 123, 120);
+  background-color: #242222;
 }
 
 .hero-container > p {
   margin-top: 4px;
-  color: rgb(216, 123, 120);
+  color: #242222;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucinda Sans Unicode", "Lucida Grande",
     "Lucinda Sans", Arial, sans-serif;
