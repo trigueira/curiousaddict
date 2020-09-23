@@ -1,26 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
 import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
   const handleCLick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener("resize", showButton);
 
   return (
     <>
@@ -40,7 +25,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/posts" className="nav-links" onClick={closeMobileMenu}>
-                Posts
+                Browse by Topic
               </Link>
             </li>
             <li className="nav-item">
@@ -49,11 +34,10 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Contact
+                Contact <i className="far fa-envelope" />
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </>
