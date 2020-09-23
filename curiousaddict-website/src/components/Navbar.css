@@ -80,6 +80,10 @@
   display: none;
 }
 
+.fa-envelope {
+  margin-left: 8px;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
