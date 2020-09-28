@@ -1,51 +1,42 @@
-import React from "react";
+import React, { Component } from "react";
+import PostService from "../services/PostService";
 import CardItem from "./CardItem";
 import "./Cards.css";
 
-function Cards() {
-  return (
-    <div className="cards">
-      <h1>Check out it</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__item">
-            <CardItem
-              src="images/plants-edited.jpg"
-              text="Hi! I am the person behind Curious Addict"
-              label="JAVA"
-              path="/contact"
-            />
-            <CardItem
-              src="images/plants-edited.jpg"
-              text="Hi! I am the person behind Curious Addict"
-              label="JAVA"
-              path="/contact"
-            />
-          </ul>
-          <ul className="cards__item">
-            <CardItem
-              src="images/plants-edited.jpg"
-              text="Hi! I am the person behind Curious Addict"
-              label="REACT"
-              path="/contact"
-            />
-            <CardItem
-              src="images/plants-edited.jpg"
-              text="Hi! I am the person behind Curious Addict"
-              label="REACT"
-              path="/contact"
-            />
-            <CardItem
-              src="images/plants-edited.jpg"
-              text="Hi! I am the person behind Curious Addict"
-              label="REACT"
-              path="/contact"
-            />
-          </ul>
+export default class Cards extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      posts: [],
+    };
+  }
+
+  componentDidMount() {
+    PostService.getPosts().then((response) => {
+      this.setState({ posts: response.data });
+    });
+  }
+
+  render() {
+    return (
+      <div className="cards">
+        <h1>Check out it</h1>
+        <div className="cards__container">
+          <div className="cards__wrapper">
+            <ul className="cards__item">
+              {this.state.posts.map((post) => (
+                <CardItem
+                  key={post.id}
+                  src={post.image}
+                  text={post.title}
+                  label={post.topic}
+                  path="/posts"
+                />
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
-
-export default Cards;

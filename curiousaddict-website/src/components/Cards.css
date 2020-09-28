@@ -5,6 +5,8 @@
 
 h1 {
   text-align: center;
+  /*text-align: left;
+  border-bottom: 4px dotted #242424;*/
 }
 
 .cards__container {
