@@ -25,7 +25,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/posts" className="nav-links" onClick={closeMobileMenu}>
-                Browse by Topic
+                Posts
               </Link>
             </li>
             <li className="nav-item">
