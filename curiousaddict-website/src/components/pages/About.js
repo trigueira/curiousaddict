@@ -1,11 +1,11 @@
 import React from "react";
 import "../../App.css";
-import CreatePost from "../CreatePost";
+import CreateContent from "../CreateContent";
 
 export default function Posts() {
   return (
     <>
-      <CreatePost />
+      <CreateContent />
     </>
   );
 }

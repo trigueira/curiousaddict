@@ -61,3 +61,28 @@ input:active,
 input:hover {
   outline-color: rgb(216, 123, 120);
 }
+
+h1 {
+  padding-top: 20px;
+}
+
+.about-container p {
+  max-width: 1000px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px 0px;
+}
+
+.notice {
+  text-align: center;
+  background-color: rgb(216, 123, 120);
+  color: #fff;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  border-left: 10px solid rgb(216, 123, 120);
+  border-right: 10px solid rgb(216, 123, 120);
+}
+
+.about-container {
+  padding-bottom: 20px;
+}
