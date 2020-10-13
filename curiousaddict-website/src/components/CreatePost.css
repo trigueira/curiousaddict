@@ -40,17 +40,24 @@
   padding: 5px 15px;
   border-style: solid;
   border-color: #242424;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: #fff;
   height: 50px;
   margin: 18px 0px;
   font-size: 1rem;
 }
 
-.form-input-btn:hover {
+.form-input-btn:hover,
+.form-input-btn:active {
   cursor: pointer;
   background-color: rgb(216, 123, 120);
   transition: all 0.4s ease-out;
   color: #fff;
   border-color: rgb(216, 123, 120);
+  outline-color: rgb(216, 123, 120);
+}
+
+input:active,
+input:hover {
+  outline-color: rgb(216, 123, 120);
 }
