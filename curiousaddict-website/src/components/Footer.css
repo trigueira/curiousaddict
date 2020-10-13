@@ -7,3 +7,26 @@
   color: #fff;
   padding: 20px;
 }
+
+.footer-contact {
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer-contact-heading {
+  padding-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.footer-contact-email {
+  padding-bottom: 5px;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.website-rights {
+  padding-top: 20px;
+}
