@@ -27,16 +27,21 @@ table {
   max-width: 1000px;
   width: 70%;
   margin: 10px auto 30px auto;
-  border-bottom: 1px solid rgba(36, 36, 36, 1);
+  border-bottom: 4px solid rgba(36, 36, 36, 1);
 }
 
-.table__header th {
+.table-header th {
   font-size: 1rem;
   margin-bottom: 1rem;
   background-color: rgba(36, 36, 36, 1);
   color: #fff;
   padding-left: 6px;
   text-align: left;
+}
+
+.action-column {
+  width: 1px;
+  white-space: nowrap;
 }
 
 .new-content {
@@ -48,15 +53,14 @@ table {
 }
 
 input {
-  border: 2px solid rgb(216, 123, 120);
+  border: 2px solid rgba(36, 36, 36, 1);
   border-radius: 3px;
-  color: #242424;
+  color: #242424bd;
   padding-left: 6px;
 }
 
-.add-btn {
-  padding-top: 4px;
-  padding-bottom: 4px;
+.btn {
+  padding: 4px;
   border-style: solid;
   border-color: rgb(216, 123, 120);
   background-color: rgb(216, 123, 120);
@@ -65,6 +69,21 @@ input {
   font-size: 1rem;
   margin: 3px;
   max-width: 66px;
+}
+
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.4s ease-out;
+  color: rgb(216, 123, 120);
+  border-color: rgb(216, 123, 120);
+  outline-color: rgb(216, 123, 120);
+}
+
+input:active,
+input:hover {
+  outline-color: rgb(216, 123, 120);
 }
 
 /*
@@ -99,18 +118,5 @@ input {
   font-size: 1rem;
 }
 
-.form-input-btn:hover,
-.form-input-btn:active {
-  cursor: pointer;
-  background-color: rgb(216, 123, 120);
-  transition: all 0.4s ease-out;
-  color: #fff;
-  border-color: rgb(216, 123, 120);
-  outline-color: rgb(216, 123, 120);
-}
 
-input:active,
-input:hover {
-  outline-color: rgb(216, 123, 120);
-}
 */

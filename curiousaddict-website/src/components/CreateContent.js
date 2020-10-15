@@ -9,6 +9,13 @@ export default class CreateContent extends Component {
       dbContent: [],
     };
   }
+
+  componentDidMount() {
+    ContentService.getContent().then((response) => {
+      this.setState({ dbContent: response.data });
+    });
+  }
+
   render() {
     return (
       <div className="about-container">
@@ -16,22 +23,30 @@ export default class CreateContent extends Component {
         <p>
           I am also curious about programming, and this is a very simple web app
           that I created to play with React and SpringBoot :) <br></br> Bellow
-          it is a table where you add a new content, edit or delete existent
+          it is a table where you can add a new content, edit or delete existent
           content.
         </p>
         <div className="new-content">
           <input value="Write anything here and press 'ADD''"></input>
-          <button className="add-btn">ADD</button>
+          <button className="btn add-btn">ADD</button>
         </div>
         <table>
           <thead>
-            <tr className="table__header">
+            <tr className="table-header">
               <th>Content</th>
-              <th>Action</th>
+              <th className="action-column">Action</th>
             </tr>
           </thead>
           <tbody>
-            <tr className="123"></tr>
+            {this.state.dbContent.map((content) => (
+              <tr key={content.id}>
+                <td> {content.content} </td>
+                <td className="action-column">
+                  <button className="btn edit-btn">EDIT</button>
+                  <button className="btn delete-btn">DELETE</button>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
         <p className="notice">
