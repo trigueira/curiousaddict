@@ -27,6 +27,7 @@ table {
   max-width: 1000px;
   width: 70%;
   margin: 10px auto 30px auto;
+  border-bottom: 1px solid rgba(36, 36, 36, 1);
 }
 
 .table__header th {
@@ -38,26 +39,32 @@ table {
   text-align: left;
 }
 
-.new-content td {
-  border-bottom: 1px solid rgba(36, 36, 36, 1);
+.new-content {
+  align-items: center;
+  max-width: 1000px;
+  width: 70%;
+  display: grid;
+  margin: auto;
 }
 
 input {
-  width: 100%;
-  border: none;
-  color: rgb(216, 123, 120);
-  margin-left: 6px;
+  border: 2px solid rgb(216, 123, 120);
+  border-radius: 3px;
+  color: #242424;
+  padding-left: 6px;
 }
 
 .add-btn {
-  padding: 2px 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   border-style: solid;
   border-color: rgb(216, 123, 120);
-  background-color: #fff;
+  background-color: rgb(216, 123, 120);
   border-radius: 8px;
-  color: rgb(216, 123, 120);
+  color: #fff;
   font-size: 1rem;
   margin: 3px;
+  max-width: 66px;
 }
 
 /*

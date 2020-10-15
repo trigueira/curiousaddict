@@ -3,9 +3,13 @@ import ContentService from "../services/ContentService";
 import "./CreateContent.css";
 
 export default class CreateContent extends Component {
+  constructor(props) {
+    super();
+    this.state = {
+      dbContent: [],
+    };
+  }
   render() {
-    const dbContent = [];
-
     return (
       <div className="about-container">
         <h1>What is it?</h1>
@@ -15,6 +19,10 @@ export default class CreateContent extends Component {
           it is a table where you add a new content, edit or delete existent
           content.
         </p>
+        <div className="new-content">
+          <input value="Write anything here and press 'ADD''"></input>
+          <button className="add-btn">ADD</button>
+        </div>
         <table>
           <thead>
             <tr className="table__header">
@@ -23,14 +31,7 @@ export default class CreateContent extends Component {
             </tr>
           </thead>
           <tbody>
-            <tr className="new-content">
-              <td>
-                <input value="Write anything here and press '+''"></input>
-              </td>
-              <td>
-                <button className="add-btn">+</button>
-              </td>
-            </tr>
+            <tr className="123"></tr>
           </tbody>
         </table>
         <p className="notice">
