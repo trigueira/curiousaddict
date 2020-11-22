@@ -30,3 +30,39 @@
 .website-rights {
   padding-top: 20px;
 }
+
+@media screen and (max-width: 960px) {
+  .footer-contact {
+    padding: 15px;
+  }
+
+  .footer-contact-heading {
+    font-size: 1.1rem;
+  }
+
+  .footer-contact-email {
+    font-size: 0.8rem;
+  }
+
+  .website-rights {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-contact {
+    padding: 12px;
+  }
+
+  .footer-contact-heading {
+    font-size: 0.9rem;
+  }
+
+  .footer-contact-email {
+    font-size: 0.6rem;
+  }
+
+  .website-rights {
+    font-size: 0.5rem;
+  }
+}
