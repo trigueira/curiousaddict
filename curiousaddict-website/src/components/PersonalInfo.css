@@ -1,0 +1,14 @@
+h1 {
+  padding-top: 20px;
+}
+
+.about-container p {
+  max-width: 1000px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px 0px;
+}
+
+.about-container {
+  padding-bottom: 20px;
+}
