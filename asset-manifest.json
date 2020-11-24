@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/curiousaddict/static/css/main.08d033b6.chunk.css",
+    "main.js": "/curiousaddict/static/js/main.20786213.chunk.js",
+    "main.js.map": "/curiousaddict/static/js/main.20786213.chunk.js.map",
+    "runtime-main.js": "/curiousaddict/static/js/runtime-main.d9e6fa7d.js",
+    "runtime-main.js.map": "/curiousaddict/static/js/runtime-main.d9e6fa7d.js.map",
+    "static/js/2.f5ec58a3.chunk.js": "/curiousaddict/static/js/2.f5ec58a3.chunk.js",
+    "static/js/2.f5ec58a3.chunk.js.map": "/curiousaddict/static/js/2.f5ec58a3.chunk.js.map",
+    "index.html": "/curiousaddict/index.html",
+    "precache-manifest.70ea6c8cc0e87551b423112363c3d371.js": "/curiousaddict/precache-manifest.70ea6c8cc0e87551b423112363c3d371.js",
+    "service-worker.js": "/curiousaddict/service-worker.js",
+    "static/css/main.08d033b6.chunk.css.map": "/curiousaddict/static/css/main.08d033b6.chunk.css.map",
+    "static/js/2.f5ec58a3.chunk.js.LICENSE.txt": "/curiousaddict/static/js/2.f5ec58a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9e6fa7d.js",
+    "static/js/2.f5ec58a3.chunk.js",
+    "static/css/main.08d033b6.chunk.css",
+    "static/js/main.20786213.chunk.js"
+  ]
+}
