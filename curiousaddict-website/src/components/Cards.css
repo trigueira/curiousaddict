@@ -123,3 +123,10 @@ a {
     margin-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .cards__item__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
