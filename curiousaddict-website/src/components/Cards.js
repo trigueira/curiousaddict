@@ -18,7 +18,7 @@ function Cards() {
             />
             <CardItem
               src="images/curiosities/neuroplasticity.jpg"
-              text="New brain connection are created every time we form a memory. And when we learn something new the structure of the brain changes!"
+              text="New brain connections are created every time we form a memory. And when we learn something new the structure of the brain changes!"
               label="BRAIN"
               alt="Funny draw of a brain doing different activities to keep in 'shape'"
               path="/curiosities"

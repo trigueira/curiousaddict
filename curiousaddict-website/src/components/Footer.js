@@ -8,9 +8,9 @@ function Footer() {
         <p className="footer-contact-heading">ARE YOU CURIOUS FOR MORE?</p>
         <a
           className="footer-contact-email"
-          href="mailto:trigueiro.andreia@gmail.com"
+          href="mailto:info.curiousaddict@gmail.com"
         >
-          trigueiro.andreia@gmail.com
+          info.curiousaddict@gmail.com
         </a>
       </section>
       <small className="website-rights"> CuriousAddict &#169; 2020</small>
