@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/curiousaddict/static/css/main.08d033b6.chunk.css",
-    "main.js": "/curiousaddict/static/js/main.20786213.chunk.js",
-    "main.js.map": "/curiousaddict/static/js/main.20786213.chunk.js.map",
-    "runtime-main.js": "/curiousaddict/static/js/runtime-main.d9e6fa7d.js",
-    "runtime-main.js.map": "/curiousaddict/static/js/runtime-main.d9e6fa7d.js.map",
-    "static/js/2.f5ec58a3.chunk.js": "/curiousaddict/static/js/2.f5ec58a3.chunk.js",
-    "static/js/2.f5ec58a3.chunk.js.map": "/curiousaddict/static/js/2.f5ec58a3.chunk.js.map",
+    "main.css": "/curiousaddict/static/css/main.95bb1496.chunk.css",
+    "main.js": "/curiousaddict/static/js/main.1a31498d.chunk.js",
+    "main.js.map": "/curiousaddict/static/js/main.1a31498d.chunk.js.map",
+    "runtime-main.js": "/curiousaddict/static/js/runtime-main.cd686d25.js",
+    "runtime-main.js.map": "/curiousaddict/static/js/runtime-main.cd686d25.js.map",
+    "static/js/2.e4a758ef.chunk.js": "/curiousaddict/static/js/2.e4a758ef.chunk.js",
+    "static/js/2.e4a758ef.chunk.js.map": "/curiousaddict/static/js/2.e4a758ef.chunk.js.map",
     "index.html": "/curiousaddict/index.html",
-    "precache-manifest.70ea6c8cc0e87551b423112363c3d371.js": "/curiousaddict/precache-manifest.70ea6c8cc0e87551b423112363c3d371.js",
-    "service-worker.js": "/curiousaddict/service-worker.js",
-    "static/css/main.08d033b6.chunk.css.map": "/curiousaddict/static/css/main.08d033b6.chunk.css.map",
-    "static/js/2.f5ec58a3.chunk.js.LICENSE.txt": "/curiousaddict/static/js/2.f5ec58a3.chunk.js.LICENSE.txt"
+    "static/css/main.95bb1496.chunk.css.map": "/curiousaddict/static/css/main.95bb1496.chunk.css.map",
+    "static/js/2.e4a758ef.chunk.js.LICENSE.txt": "/curiousaddict/static/js/2.e4a758ef.chunk.js.LICENSE.txt",
+    "static/media/black-footed-cat.0da00d04.jpg": "/curiousaddict/static/media/black-footed-cat.0da00d04.jpg",
+    "static/media/global-warming.a337ce18.jpg": "/curiousaddict/static/media/global-warming.a337ce18.jpg",
+    "static/media/hippocampus.72321fab.jpg": "/curiousaddict/static/media/hippocampus.72321fab.jpg",
+    "static/media/HeroSection.css": "/curiousaddict/static/media/home.c367497f.jpg",
+    "static/media/neuroplasticity.44d44135.jpg": "/curiousaddict/static/media/neuroplasticity.44d44135.jpg",
+    "static/media/penicillin.942f2b31.jpg": "/curiousaddict/static/media/penicillin.942f2b31.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9e6fa7d.js",
-    "static/js/2.f5ec58a3.chunk.js",
-    "static/css/main.08d033b6.chunk.css",
-    "static/js/main.20786213.chunk.js"
+    "static/js/runtime-main.cd686d25.js",
+    "static/js/2.e4a758ef.chunk.js",
+    "static/css/main.95bb1496.chunk.css",
+    "static/js/main.1a31498d.chunk.js"
   ]
 }
