@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/curiousaddict/static/css/main.95bb1496.chunk.css",
-    "main.js": "/curiousaddict/static/js/main.634b3e4a.chunk.js",
-    "main.js.map": "/curiousaddict/static/js/main.634b3e4a.chunk.js.map",
+    "main.js": "/curiousaddict/static/js/main.de801d88.chunk.js",
+    "main.js.map": "/curiousaddict/static/js/main.de801d88.chunk.js.map",
     "runtime-main.js": "/curiousaddict/static/js/runtime-main.cd686d25.js",
     "runtime-main.js.map": "/curiousaddict/static/js/runtime-main.cd686d25.js.map",
     "static/js/2.e4a758ef.chunk.js": "/curiousaddict/static/js/2.e4a758ef.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.cd686d25.js",
     "static/js/2.e4a758ef.chunk.js",
     "static/css/main.95bb1496.chunk.css",
-    "static/js/main.634b3e4a.chunk.js"
+    "static/js/main.de801d88.chunk.js"
   ]
 }
