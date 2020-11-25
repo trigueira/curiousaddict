@@ -11,7 +11,7 @@ function Cards() {
           <ul className="cards__item">
             <CardItem
               src="images/curiosities/penicillin.jpg"
-              text="Alexander Fleming, discovered Penicillin accidentally in 1928. Today is the most widely used antibiotic in the world!"
+              text="Alexander Fleming discovered Penicillin accidentally in 1928. Today is the most widely used antibiotic in the world!"
               label="SCIENCE"
               alt="Petry dish with a blue-green mold(Penicillium notatum) and a clear ring surrounding the mold where the bacteria are unable to grow"
               path="/curiosities"
