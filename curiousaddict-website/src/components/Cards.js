@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
+import { Link } from "react-router-dom";
 import pennicillin from '../images/curiosities/penicillin.jpg';
 import neuroplasticity from '../images/curiosities/neuroplasticity.jpg';
 import blackFootedCat from '../images/curiosities/black-footed-cat.jpg';
@@ -56,7 +57,7 @@ function Cards() {
         </div>
       </div>
       <h1>
-        Before you go, check the <a href="./about">about section</a> :)
+        Before you go, check the <Link to="/about">about section</Link> :)
       </h1>
     </div>
   );
