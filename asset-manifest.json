@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.96be3641.chunk.css",
-    "main.js": "/static/js/main.1a31498d.chunk.js",
-    "main.js.map": "/static/js/main.1a31498d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bc270fda.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bc270fda.js.map",
-    "static/js/2.e4a758ef.chunk.js": "/static/js/2.e4a758ef.chunk.js",
-    "static/js/2.e4a758ef.chunk.js.map": "/static/js/2.e4a758ef.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.96be3641.chunk.css.map": "/static/css/main.96be3641.chunk.css.map",
-    "static/js/2.e4a758ef.chunk.js.LICENSE.txt": "/static/js/2.e4a758ef.chunk.js.LICENSE.txt",
-    "static/media/black-footed-cat.0da00d04.jpg": "/static/media/black-footed-cat.0da00d04.jpg",
-    "static/media/global-warming.a337ce18.jpg": "/static/media/global-warming.a337ce18.jpg",
-    "static/media/hippocampus.72321fab.jpg": "/static/media/hippocampus.72321fab.jpg",
-    "static/media/HeroSection.css": "/static/media/home.c367497f.jpg",
-    "static/media/neuroplasticity.44d44135.jpg": "/static/media/neuroplasticity.44d44135.jpg",
-    "static/media/penicillin.942f2b31.jpg": "/static/media/penicillin.942f2b31.jpg"
+    "main.css": "/curiousaddict/static/css/main.95bb1496.chunk.css",
+    "main.js": "/curiousaddict/static/js/main.424d7a5e.chunk.js",
+    "main.js.map": "/curiousaddict/static/js/main.424d7a5e.chunk.js.map",
+    "runtime-main.js": "/curiousaddict/static/js/runtime-main.cd686d25.js",
+    "runtime-main.js.map": "/curiousaddict/static/js/runtime-main.cd686d25.js.map",
+    "static/js/2.e4a758ef.chunk.js": "/curiousaddict/static/js/2.e4a758ef.chunk.js",
+    "static/js/2.e4a758ef.chunk.js.map": "/curiousaddict/static/js/2.e4a758ef.chunk.js.map",
+    "index.html": "/curiousaddict/index.html",
+    "static/css/main.95bb1496.chunk.css.map": "/curiousaddict/static/css/main.95bb1496.chunk.css.map",
+    "static/js/2.e4a758ef.chunk.js.LICENSE.txt": "/curiousaddict/static/js/2.e4a758ef.chunk.js.LICENSE.txt",
+    "static/media/black-footed-cat.0da00d04.jpg": "/curiousaddict/static/media/black-footed-cat.0da00d04.jpg",
+    "static/media/global-warming.a337ce18.jpg": "/curiousaddict/static/media/global-warming.a337ce18.jpg",
+    "static/media/hippocampus.72321fab.jpg": "/curiousaddict/static/media/hippocampus.72321fab.jpg",
+    "static/media/HeroSection.css": "/curiousaddict/static/media/home.c367497f.jpg",
+    "static/media/neuroplasticity.44d44135.jpg": "/curiousaddict/static/media/neuroplasticity.44d44135.jpg",
+    "static/media/penicillin.942f2b31.jpg": "/curiousaddict/static/media/penicillin.942f2b31.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc270fda.js",
+    "static/js/runtime-main.cd686d25.js",
     "static/js/2.e4a758ef.chunk.js",
-    "static/css/main.96be3641.chunk.css",
-    "static/js/main.1a31498d.chunk.js"
+    "static/css/main.95bb1496.chunk.css",
+    "static/js/main.424d7a5e.chunk.js"
   ]
 }
